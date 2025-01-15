@@ -38,8 +38,8 @@ belongs to which data type.
 For Example:
 
 ```
-var name1=40;
-val name2="darvintutorial";
+var name1 = 40;
+val name2 = "darvintutorial";
 ```
 
 **Rules for naming variable in Scala:**
