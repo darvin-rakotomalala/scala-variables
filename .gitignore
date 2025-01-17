@@ -5,7 +5,7 @@
 
 # sbt specific
 dist/*
-target/
+target/*
 lib_managed/
 src_managed/
 project/boot/
@@ -21,11 +21,13 @@ project/local-plugins.sbt
 .cache
 .classpath
 .project
+.project/*
 .settings
 classes/
 
 # idea
 .idea
+.idea/*
 .idea_modules
 /.worksheet/
 
