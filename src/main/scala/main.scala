@@ -3,6 +3,11 @@ def main(): Unit =
   println("-----------------------------------------------------------------")
   println("Hello world! This is a summary Variables in Scala")
 
+  val result = 3 + 4 // Expression
+  println("- Expression example:" + result)
+  val unitExample: Unit = println("- This returns Unit") // Expression returning Unit
+
+  println("-----------------------------------------------------------------")
   /* Mutable Variable example */
   var nameMutable: String = "Mutable Variable test";
   println("- nameMutable= " + nameMutable)
