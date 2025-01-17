@@ -26,7 +26,7 @@ def main(): Unit =
   println("- valueImmutable= " + valueImmutable)
 
   println("-----------------------------------------------------------------")
-  /* Note: Scala supports multiple assignments but you can use multiple
+  /* Note: Scala supports multiple assignments, but you can use multiple
   assignments only with immutable variables. */
   val (name1Var: Int, name2Var: String) = (2, "StringTest")
   println("- Value of multiple assignments: " + name1Var + " et " + name2Var)
