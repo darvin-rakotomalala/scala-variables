@@ -1,10 +1,22 @@
+/*
+  Var, val. We use var in Scala 3.3 to store a variable—it can be changed. A var can be reassigned.
+  The val keyword, meanwhile, refers to a constant.
+ */
 @main
 def main(): Unit =
   println("-----------------------------------------------------------------")
   println("Hello world! This is a summary Variables in Scala")
 
+  println("Var example:")
+  val varEx = new VarValDemo()
+  varEx.varExample()
+  println("Val example:")
+  varEx.valExample()
+  println("Val type example:")
+  varEx.valTypeExample()
+
   val result = 3 + 4 // Expression
-  println("- Expression example:" + result)
+  println("Expression example: " + result)
   val unitExample: Unit = println("- This returns Unit") // Expression returning Unit
 
   println("-----------------------------------------------------------------")
@@ -53,6 +65,20 @@ def main(): Unit =
   println("- Local Variables example")
   val varLocal = new LocalVarExample()
   varLocal.multiplication();
+
+  println("-----------------------------------------------------------------")
+  println("Class fields example:")
+  // Create a new Box instance.
+  val box = new ClassFieldDemo
+
+  // Assign width and height var fields.
+  box.width = 10
+  box.height = 20
+
+  // Print fields of box instance.
+  println(box.width)
+  println(box.height)
+  println(box.name)
 
 
 
