@@ -80,5 +80,20 @@ def main(): Unit =
   println(box.height)
   println(box.name)
 
+  println("-----------------------------------------------------------------")
+  println("Println example")
+  val printlnEx = new PrintlnDemo()
+  printlnEx.printlnExample()
+  println()
+  println("String interpolation example")
+  printlnEx.stringInterpolation()
+
+  println("-----------------------------------------------------------------")
+  println("Type Inference example")
+  val typeInf = new TypeInferenceDemo()
+  typeInf.typeInferenceExample1()
+  typeInf.typeInferenceExample2()
+
+
 
 
